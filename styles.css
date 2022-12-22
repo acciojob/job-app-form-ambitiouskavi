@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+body{
+    background-color: black;
+    color:white;
+}
+
+input[type="radio"]
+{
+    width:20px;
+    height:20px;
+    display:inline;
+    position:relative;
+    right:130px;
+}
+input{
+      margin:10px;
+      width:300px;
+      height:30px;
+      border:none;
+      border-bottom:1px solid black;
+}
+#flex-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+   align-items: center;
+}
+button{
+    height:30px;
+    width:150px;
+}
+label{
+    display: inline;
+    position:relative;
+    right:100px;
+}
