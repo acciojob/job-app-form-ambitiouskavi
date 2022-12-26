@@ -24,14 +24,23 @@ input{
     display:flex;
     flex-direction:column;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
 button{
     height:30px;
     width:150px;
+    position: relative;
+    right:100px;
 }
 label{
-    display: inline;
     position:relative;
     right:100px;
+}
+#gender{
+position:relative;
+right:260px;
+}
+#brands{
+    position:relative;
+    right:205px;
 }

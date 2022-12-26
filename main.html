@@ -10,27 +10,62 @@
 	<!-- the entire body must be written by student -->
 	<main>
 		<h1>Job App Form</h1>
-		<form action="/action_page.php" method="get" id="flex-container">
-			
-				<label for="Name">Name</label><input type="text" placeholder="Name" id="name" name="Name" required>
-				<label for="Email">Email</label><input type="email" placeholder="Email" id="email" name="Email" required>
-				<input type="radio" name="gender" id="gender" required><label for="gender">Male</label>
-			
-				<input type="radio" name="gender" required><label for="gender">Female</label>
-				<input list="laptops" id="laptop">
-					<datalist id="laptops">
-					 <option value="Apple">
-					 <option value="Asus">
-					 <option value="HP">
-					</datalist>
-				
-			    <input type="number" id="age" placeholder="Age" name="age" min="1" max="150" required>
-				<input type="date" id="dob" required>
-				<input type="password" placeholder="Password" id="password" required>
-				<input id="portfolio" type="url" placeholder="URL" required>
-				<button type="submit">Submit</button>
-			
-				</form>
+		<form action="#" method="post" id="flex-container">
+			<label for="name">
+				Name*
+				<input type="text" id="name" placeholder="Name" required>
+			</label>
+
+			<label for="email">
+				Email*
+				<input type="email" name="Email" id="email" placeholder="Email" required>
+			</label>
+
+			<label for="gender" id="gender">
+				Gender*
+			</label>
+
+			<label for="male">
+				Male
+				<input type="radio" name="gender" id="male" required>
+			</label>
+
+			<label for="female">
+				Female
+				<input type="radio" name="gender" id="female" required>
+			</label>
+
+			<label for="laptop" id="brands">
+				Laptop Brands
+				<select name="laptop" id="laptop">
+					<option value="apple">Apple</option>
+					<option value="asus">Asus</option>
+					<option value="HP">HP</option>
+				</select>
+			</label>
+
+			<label for="age">
+				Age*
+				<input type="number" name="age" id="age" required>
+			</label>
+
+			<label for="dob">
+				DOB*
+				<input type="date" name="dob" id="dob" required>
+			</label>
+
+			<label for="password">
+				Password*
+				<input type="password" name="password" id="password" required>
+			</label>
+
+			<label for="portfolio">
+				Portfolio Link*
+				<input type="url" name="portfolio" id="portfolio" required>
+			</label>
+
+			<button type="submit">Submit</button>
+		</form>
 	</main>
     <script type="text/javascript" src="./script.js">
 </script>
